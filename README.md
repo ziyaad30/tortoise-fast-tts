@@ -88,9 +88,9 @@ The installation process is identical to the original tortoise-tts repo.
 ```shell
 git clone https://github.com/152334H/tortoise-tts-fast
 cd tortoise-tts-fast
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
-python3 -m pip install -e .
-pip3 install git+https://github.com/152334H/BigVGAN.git
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+python -m pip install -e .
+pip install git+https://github.com/152334H/BigVGAN.git
 ```
 
 Note that if you have the original tortoise installed,
